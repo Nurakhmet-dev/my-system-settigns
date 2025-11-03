@@ -1,1 +1,1 @@
-<img style="./Nurakhmet.png" alt="Nurakhmet">
+<img src="./Nurakhmet.png" alt="Nurakhmet">
