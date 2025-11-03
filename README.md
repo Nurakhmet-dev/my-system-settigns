@@ -1,6 +1,1 @@
-<div style='color:#f5e0dc;'>███╗   ██╗██╗   ██╗██████╗ ██╗   ██╗██╗  ██╗<div>
-<div style='color:#f5e0dc;'>████╗  ██║██║   ██║██╔══██╗╚██╗ ██╔╝██║ ██╔╝</div>
-<div style='color:#f2cdcd;'>██╔██╗ ██║██║   ██║██████╔╝ ╚████╔╝ █████╔╝</div>
-<div style='color:#f2cdcd;'>██║╚██╗██║██║   ██║██╔══██╗  ╚██╔╝  ██╔═██╗</div>
-<div style='color:#f5c2e7;'>██║ ╚████║╚██████╔╝██║  ██║   ██║   ██║  ██╗</div>
-<div style='color:#f5c2e7;'>╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝</div>
+<img style="./Nurakhmet.png" alt="Nurakhmet">
