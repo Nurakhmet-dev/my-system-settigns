@@ -1,1 +1,1 @@
-<img src="./Nurakhmet.png" alt="Nurakhmet" style="width: max-content;">
+<img src="./Nurakhmet.png" alt="Nurakhmet" style="width: 100%;">
