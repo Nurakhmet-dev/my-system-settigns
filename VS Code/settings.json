@@ -1,0 +1,94 @@
+{
+	// --- Автоматическое сохранение и форматирование ---
+	"files.autoSave": "afterDelay", // Автосохранение файлов после задержки
+	"editor.formatOnSave": true, // Форматировать файл при сохранении
+	"files.trimTrailingWhitespace": true, // Удалять пробелы в конце строк при сохранении
+	"files.insertFinalNewline": true, // Добавлять новую строку в конце файла
+
+	// --- Настройки Prettier ---
+	"prettier.tabWidth": 4, // Ширина табуляции — 4 пробела
+	"prettier.printWidth": 90, // Максимальная длина строки — 90 символов
+	"editor.defaultFormatter": "esbenp.prettier-vscode", // Форматтер по умолчанию — Prettier
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+
+	// --- Внешний вид интерфейса ---
+	"workbench.colorTheme": "Adonis Darker", // Цветовая тема интерфейса
+	"workbench.iconTheme": "material-icon-theme", // Иконки в файловом дереве
+	"workbench.startupEditor": "none", // Показывать статус-бар
+	"workbench.tips.enabled": false, // Отключить советы
+	"workbench.activityBar.location": "bottom", // Переместить панель активностей вниз
+	"workbench.editor.editorActionsLocation": "titleBar",
+	"workbench.editor.showTabs": "none",
+
+	// --- Файловый менеджер (Explorer) ---
+	"explorer.compactFolders": false, // Не сворачивать вложенные папки в одну строку
+	"explorer.confirmDragAndDrop": false, // Не спрашивать при перетаскивании файлов
+	"explorer.confirmDelete": false, // Не подтверждать удаление файлов
+	"explorer.decorations.badges": false, // Скрыть бейджи на файлах (например, git)
+	"explorer.confirmPasteNative": false, // Не спрашивать при вставке
+	"material-icon-theme.hidesExplorerArrows": true, // Скрыть стрелки в дереве файлов
+	"material-icon-theme.folders.color": "#4c80e0",
+	"material-icon-theme.files.color": "#42a5f5",
+
+	// --- Редактор ---
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono", // Шрифт редактора
+	"editor.fontSize": 16, // Размер шрифта
+	"editor.fontLigatures": true, // Включить лигатуры -> *** === !== !=
+	"editor.lineHeight": 2.25, // Межстрочный интервал
+	"editor.lineNumbers": "off", // Отключить номера строк
+	"editor.tabSize": 4, // Размер табуляции — 4 пробела
+	"editor.detectIndentation": false, // Не определять отступ автоматически
+	"editor.showFoldingControls": "never", // Не показывать кнопки сворачивания кода
+	"editor.minimap.enabled": false, // Отключить миникарту справа
+	"editor.multiCursorModifier": "alt", // Мультикурсор по Alt+клик
+	"editor.stickyScroll.enabled": true, // Липкая прокрутка (заголовки функций при прокрутке)
+	"editor.matchBrackets": "never", // Не подсвечивать парные скобки
+	"editor.parameterHints.enabled": false, // Отключить всплывающие подсказки параметров функций
+	"editor.hover.enabled": false, // Отключить всплывающие подсказки
+	"editor.renderWhitespace": "none", // Не показывать пробелы
+	"editor.renderLineHighlight": "none", // Не подсвечивать текущую строку
+	"editor.occurrencesHighlight": "off", // Не подсвечивать все вхождения переменной
+	"editor.scrollbar.horizontal": "auto", // Автоматическая горизонтальная прокрутка
+	"editor.scrollbar.vertical": "auto", // Автоматическая вертикальная прокрутка
+	"editor.overviewRulerBorder": false, // Убрать границу у обзорной линейки
+	"editor.hideCursorInOverviewRuler": true, // Скрыть курсор в обзорной линейке
+	"editor.tabCompletion": "on", // Автодополнение по Tab
+	"emmet.triggerExpansionOnTab": true, // Расширение Emmet при нажатии Tab
+	"editor.quickSuggestions": {
+		"other": "inline",
+		"comments": "inline",
+		"strings": "inline"
+	}, // Отключить быстрые подсказки
+	"editor.guides.indentation": true, // Показывать направляющие отступов
+	"editor.cursorBlinking": "expand", // Анимация мигания курсора
+	"editor.cursorSmoothCaretAnimation": "on", // Плавное перемещение курсора
+
+	// --- Терминал ---
+	"terminal.integrated.fontSize": 18, // Размер шрифта в терминале
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono", // Шрифт терминала
+
+	// --- Дерево и боковые панели ---
+	"workbench.tree.enableStickyScroll": true, // Липкий заголовок в деревьях
+	"workbench.tree.indent": 16, // Отступ для вложенных элементов
+	"workbench.tree.renderIndentGuides": "none", // Не показывать линии отступов
+	"workbench.secondarySideBar.defaultVisibility": "hidden", // Скрывать вторую боковую панель
+
+	// --- Безопасность ---
+	// "security.allowedUNCHosts": ["wsl.localhost"], // Разрешённые UNC-хосты (для WSL)
+
+	// --- Настройки для языков и фреймворков ---
+	"python.analysis.typeCheckingMode": "standard", // Типизация Python — стандартная
+	"javascript.updateImportsOnFileMove.enabled": "always", // Автообновление импортов при перемещении файлов JS
+	"typescript.updateImportsOnFileMove.enabled": "always", // То же для TypeScript
+	"typescript.locale": "en", // Язык TypeScript — английский
+	"typescript.preferences.preferTypeOnlyAutoImports": true, // Использовать type-only импорты
+	"tailwindCSS.emmetCompletions": true, // Emmet-подсказки для Tailwind CSS
+
+	// --- Настройки для Prisma ---
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma" // Форматтер для файлов Prisma
+	}
+	// --- Live Server ---
+	// "liveServer.settings.fullReload": true, // Полная перезагрузка при изменениях
+}
